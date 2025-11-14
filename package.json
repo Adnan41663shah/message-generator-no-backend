@@ -1,0 +1,14 @@
+{
+  "name": "message-generator",
+  "version": "1.0.0",
+  "description": "Report Generator - Pure Frontend Application",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/tailwind.css --watch",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
+
